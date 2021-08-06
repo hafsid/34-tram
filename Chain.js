@@ -1,0 +1,1 @@
+//write the chain class similar to the slingshot class.
