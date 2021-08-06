@@ -60,20 +60,6 @@ function draw() {
   chain3.show();
   chain4.show();
   chain5.show();
-  var collision = Matter.SAT.collides(boggie6.body,rock1.body);
-  if(collision.collided)
-  {
-    flag=1;
-    
-    
-  }
-  if(flag ===1){
-    textSize(30);
-    stroke(3);
-    fill('blue');
-    text("CRASH",500,200);
-    crashSound.play();
-  }
-  }
+}
 
   //write the key pressed function and add the sound 
